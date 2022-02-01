@@ -1,0 +1,66 @@
+@import"global.css";
+
+#inbox{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    box-shadow: 21px 10px 30px -37px rgba(0, 0, 0, 0.75);
+    overflow-y: auto;
+    
+}
+#chat{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+#profile{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    box-shadow: -21px 10px 30px -37px rgba(0, 0, 0, 0.75);    
+}
+.column{
+   height: 100vh;    
+}
+.column p.title{
+    font-weight: bold;
+    font-size: 15pt;
+    padding: 20px 30px;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 40px;
+}
+button:hover{
+    border: 1px solid#34ADFF;
+    background-color: #34adff;
+    color: #fff;
+}
+.wrapper .inbox{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+.wrapper .user-inbox{
+    justify-content: flex-end;
+    margin: 13px 0;
+}
+.wrapper .inbox .icon{
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    background: #007bff;
+}
+
+.user-inbox .msg-header p{
+    color: rgb(59, 54, 54);
+    background: #efefef;
+}
