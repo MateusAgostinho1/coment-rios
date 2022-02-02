@@ -1,0 +1,9 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"batepapo"},
+{"type":"table","name":"mensagens","database":"batepapo","data":
+[
+{"id":"8","Nome":"Joelson AntÃ³nio","msg":"Cassule vem agora","data_msg":"2022-01-25 21:42:45"}
+]
+}
+]

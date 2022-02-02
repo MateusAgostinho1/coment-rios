@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.2
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1:3306
+- Tempo de geração: 02-Fev-2022 às 06:03
+- Versão do servidor: 5.7.31
+- versão do PHP: 7.3.21
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="batepapo" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="mensagens">
+                CREATE TABLE `mensagens` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `Nome` varchar(50) CHARACTER SET utf8 NOT NULL,
+                  `msg` varchar(1000) CHARACTER SET utf8 NOT NULL,
+                  `data_msg` datetime DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=27 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Banco de dados: 'batepapo'
+    -->
+    <database name="batepapo">
+        <!-- Tabela mensagens -->
+        <table name="mensagens">
+            <column name="id">8</column>
+            <column name="Nome">Joelson AntÃ³nio</column>
+            <column name="msg">Cassule vem agora</column>
+            <column name="data_msg">2022-01-25 21:42:45</column>
+        </table>
+    </database>
+</pma_xml_export>
